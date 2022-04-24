@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Water+Brush&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.water-brush{
+  font-family: 'Water Brush', cursive;
+}
+
+.tapestry{
+  font-family: 'Tapestry', cursive;
+}
+
+
+body{
+  overflow: hidden;
+  background: #2a0632;
+}
+
+.filter img{
+  filter: invert(0);
+}
+
+.active{
+  border: 2px solid purple;
+  background: purple;
+  border-radius: 10px;
+}
+
+.btn{
+  border: 2px solid #f43b75;
+  background: #f43b75;
+  border-radius: 10px;
+  position: relative;
+  padding: 12px 31px;
+  /* font-weight: 600; */
+  color: white;
+  font-size: 15px;
+  bottom: 40px;
+  margin-left: -210px;
+}
+
+.hover-effect:hover{
+  border: 2px solid purple;
+  background: purple;
+  border-radius: 10px;
+}
+
+.hover-effect2:hover{
+  filter: invert(1);
+}
+
+.red-bg{
+  background: red;
+}
